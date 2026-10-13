@@ -1,0 +1,30 @@
+# modelo "mesa_trabalho" - origem local = pivo do item (centro da base)
+o mesa_trabalho
+v 0.5 0 -0.5
+v -0.5 0 -0.5
+v -0.5 1 -0.5
+v 0.5 1 -0.5
+v 0.5 0 0.5
+v 0.5 1 0.5
+v -0.5 0 0.5
+v -0.5 1 0.5
+vt 0 0
+vt 1 0
+vt 1 1
+vt 0 1
+usemtl minecraft/block/crafting_table_front
+f 1/1 2/2 3/3
+f 1/1 3/3 4/4
+usemtl minecraft/block/crafting_table_side
+f 5/1 1/2 4/3
+f 5/1 4/3 6/4
+f 2/1 7/2 8/3
+f 2/1 8/3 3/4
+f 7/1 5/2 6/3
+f 7/1 6/3 8/4
+usemtl minecraft/block/crafting_table_top
+f 8/1 6/2 4/3
+f 8/1 4/3 3/4
+usemtl minecraft/block/oak_planks
+f 2/1 1/2 5/3
+f 2/1 5/3 7/4
