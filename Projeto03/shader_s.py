@@ -23,7 +23,7 @@ class Shader:
     @staticmethod
     def _compila(tipo, caminho: str) -> int:
         # Lê o código-fonte de `caminho` e compila. Levanta RuntimeError se houver erro.
-        with open(caminho) as arquivo:
+        with open(caminho, encoding="utf-8") as arquivo:
             codigo = arquivo.read()
 
         shader = glCreateShader(tipo)
